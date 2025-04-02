@@ -16,6 +16,7 @@ fn main() {
         "tokenize" => {
             // // You can use print statements as follows for debugging, they'll be visible when running tests.
             // writeln!(io::stderr(), "Logs from your program will appear here!").unwrap();
+            // adding code to figure out what is happening
 
             let file_contents = fs::read_to_string(filename).unwrap_or_else(|_| {
                 writeln!(io::stderr(), "Failed to read file {}", filename).unwrap();
